@@ -1,4 +1,4 @@
-FROM golang:latest
+FROM golang:1.6.4
 MAINTAINER chenjiacun35@163.com
 # ubuntu version >= 16, openjdk >= 8
 RUN apt-get -y update && apt-get install -y openjdk-8-jre-headless
